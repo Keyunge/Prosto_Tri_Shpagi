@@ -1,0 +1,35 @@
+from turtle import *
+
+bgcolor("blue")
+pencolor("aqua")
+pensize(5)
+
+def shpaga():
+    rt(90)
+    fd(100)
+    rt(180)
+    fd(250)
+    lt(90)
+    fd(50)
+    lt(180)
+    fd(100)
+    lt(180)
+    fd(50)
+    rt(90)
+    pensize(30)
+    fd(50)
+    pensize(5)
+
+shpaga()
+
+penup()
+goto(0,0)
+lt(30)
+pendown()
+shpaga()
+
+penup()
+goto(0,0)
+lt(30)
+pendown()
+shpaga()
